@@ -1,53 +1,47 @@
 # Pavan Kalyan
 
-<h3 align="center">Building practical software, data-driven tools, and clean user experiences.</h3>
+<h3 align="center">Cloud-focused builder creating dashboards, automation, and production-style backend projects.</h3>
 
 <p align="center">
   <a href="https://github.com/PavanKalyan-1718">GitHub</a> •
-  <a href="mailto:your-email@example.com">Email</a> •
+  <a href="mailto:kalyan.pavan1807@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/your-linkedin/">LinkedIn</a>
 </p>
 
----
-
 ## About Me
 
-I am focused on building projects that solve practical problems across software development, analytics, and workflow automation. I enjoy turning ideas into usable products with clean interfaces, structured data, and reliable implementation.
+I build practical software projects around cloud services, analytics, and workflow automation. I enjoy designing systems that connect APIs, process operational data, and surface useful insights through clean interfaces.
 
-- Strong interest in full-stack development and business-focused tools
-- Building projects around dashboards, productivity apps, and analytics
-- Comfortable learning quickly and shipping end-to-end solutions
+## Featured Cloud Projects
 
-## Featured Projects
+### [AWS Serverless Order Pipeline](https://github.com/PavanKalyan-1718/aws-serverless-order-pipeline)
+An AWS-style event-driven project with Lambda handlers, DynamoDB-ready data flow, and a SAM template for processing incoming orders and updating fulfillment state.
 
-### [Job Application Tracker](https://github.com/PavanKalyan-1718/job-application-tracker)
-A clean recruiting workflow tracker built with HTML, CSS, and JavaScript. It helps organize applications, deadlines, statuses, and follow-ups with local persistence and dashboard metrics.
+### [Azure Support Ops Dashboard](https://github.com/PavanKalyan-1718/azure-support-ops-dashboard)
+An Azure-oriented operations dashboard with a Bicep template, sample function logic, and a front-end console for visualizing ticket trends and SLA metrics.
+
+### [Cloud Incident Monitor](https://github.com/PavanKalyan-1718/cloud-incident-monitor)
+A monitoring and alerting starter project that simulates uptime checks, creates incident summaries, and produces JSON reports that can feed dashboards or notifications.
 
 ### [Sales Insights Dashboard](https://github.com/PavanKalyan-1718/sales-insights-dashboard)
-An interactive business dashboard that transforms raw sales records into performance KPIs, top products, and regional insights. Built as a polished front-end analytics project.
+An executive-style analytics dashboard that turns sample sales records into business KPIs, regional revenue views, and product performance insights.
 
-### [Resume Keyword Analyzer](https://github.com/PavanKalyan-1718/resume-keyword-analyzer)
-A Python-based command-line project that compares resume text with a job description and reports keyword match coverage, missing terms, and improvement suggestions.
-
-## Tech Stack
+## Core Skills
 
 ```text
-Languages: JavaScript, Python, HTML, CSS
-Focus Areas: Frontend Development, Data Analysis, Productivity Tools, Automation
-Tools: Git, GitHub, VS Code, JSON, CSV
+Cloud: AWS, Azure, Serverless, Infrastructure as Code
+Languages: Python, JavaScript, HTML, CSS
+Focus: APIs, Monitoring, Dashboards, Automation
+Tools: Git, GitHub, JSON, CSV, Bicep, AWS SAM
 ```
 
-## What I Like Building
+## What I’m Interested In
 
-- User-friendly web interfaces
-- Tools that improve job search or business workflows
-- Data dashboards with clear storytelling
-- Simple automation that saves time
+- Cloud engineering and platform support
+- Backend services and automation
+- Analytics dashboards and operational visibility
+- Building systems that solve real workflow problems
 
-## Current Focus
+## Current Direction
 
-I am continuing to build practical portfolio projects that combine usability, analytics, and clean implementation.
-
----
-
-<p align="center">Open to software, analyst, and developer opportunities.</p>
+I’m growing my portfolio around cloud-native applications, monitoring workflows, and data-driven tools that reflect real production use cases.
