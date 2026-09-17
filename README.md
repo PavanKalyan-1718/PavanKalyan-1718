@@ -97,8 +97,9 @@ Data             PostgreSQL, Redis, BigQuery, Spark, Hadoop, Hive, MySQL
 
 ## Education and Certifications
 
-**MSc, Informatics** — Northeastern University, 3.8/4.0  
-**B.Tech, Computer Science** — Lovely Professional University  
+**MSc, Informatics** - Northeastern University, 3.8/4.0
+
+**B.Tech, Computer Science** - Lovely Professional University
 Microsoft Certified: Azure Fundamentals • Power Platform Developer Associate • Security, Compliance, and Identity Fundamentals • LPIC
 
 ---
