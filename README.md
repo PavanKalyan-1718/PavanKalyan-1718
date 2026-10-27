@@ -1,8 +1,8 @@
 <h1 align="center">Pavan Kalyan</h1>
 
 <p align="center">
-  <strong>Senior Software Engineer | Core Platform & Data Orchestration</strong><br />
-  Go • Python • Airflow • Kubernetes • Reliable Backend Systems
+  <strong>Senior Software Engineer | Data Platforms, Measurement & Segmentation</strong><br />
+  Python • SQL • Distributed Processing • Airflow • Cloud-Native Systems
 </p>
 
 <p align="center">
@@ -12,9 +12,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Go-Platform%20Services-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Data%20Platforms-Measurement%20%26%20Segmentation-0f766e?style=flat-square" alt="Data Platforms" />
   <img src="https://img.shields.io/badge/Python-Data%20Systems-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Airflow-Workflow%20Orchestration-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Airflow" />
+  <img src="https://img.shields.io/badge/Kafka-Event%20Streaming-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
   <img src="https://img.shields.io/badge/Kubernetes-Cloud%20Platform-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/OpenTelemetry-Observability-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
 </p>
@@ -23,9 +24,9 @@
 
 ## Profile
 
-I build reliable backend platforms and data-orchestration services for teams that depend on scheduled and event-driven workflows. My work spans Airflow DAG design, workflow registration and status APIs, Kubernetes deployments, access-controlled data delivery, production observability, and developer tooling that makes platform capabilities easier to adopt.
+I build reliable data platforms, measurement pipelines, and backend services for teams that depend on accurate, timely data. My work spans batch and near-real-time processing, Airflow DAG design, Kafka patterns, analytics APIs, segmentation-ready data models, Kubernetes deployments, and production observability.
 
-I care about the practical parts of operating a platform: retries and backfills, data freshness, clear ownership, safe integrations, useful runbooks, measurable SLOs, and systems that application teams can understand without needing platform specialists in every loop.
+I care about the practical parts of operating a platform: idempotency, schema evolution, data quality, freshness, replay and recovery, clear ownership, useful runbooks, measurable SLOs, and systems that application teams can understand without needing platform specialists in every loop.
 
 ---
 
@@ -33,34 +34,38 @@ I care about the practical parts of operating a platform: retries and backfills,
 
 | Area | What I work on |
 | --- | --- |
-| **Workflow Orchestration** | Airflow DAGs, scheduling, retries, backfills, event-driven processing, pipeline templates |
-| **Backend Platforms** | Go and Python services, REST and gRPC APIs, authentication-aware workflows, status and alerting systems |
+| **Measurement & Segmentation** | High-volume event processing, curated analytical datasets, reporting APIs, data contracts, validation |
+| **Workflow Orchestration** | Airflow DAGs, scheduling, retries, backfills, replay controls, event-driven processing, pipeline templates |
+| **Backend Platforms** | Python, Go, and Java services, REST and GraphQL APIs, authorization-aware workflows, status and alerting systems |
 | **Cloud Infrastructure** | Kubernetes, Docker, Terraform, Helm, AWS, GCP, GitHub Actions, Linux |
 | **Reliability & Observability** | Prometheus, Grafana, OpenTelemetry, SLOs, incident response, runbooks, production diagnostics |
-| **Data Systems** | PostgreSQL, Redis, BigQuery, Kafka, Spark, Hadoop, SQL performance, schema design |
+| **Data Systems** | PostgreSQL, Redis, BigQuery, Kafka, Spark, Flink, SQL performance, schema design |
 
 ---
 
 ## Selected Work
 
-### Data Orchestration and Platform Services
+### Techminds Group — Contractor
 
-At Northeastern University, I design and operate data-orchestration services supporting analytics, reporting, advising, and operational workflows. The platform combines Airflow DAGs with Go/Python APIs and Kubernetes deployments for workflow registration, execution status, alerting, and access-controlled data delivery. I also build reusable templates, infrastructure modules, operational dashboards, and runbooks that reduce onboarding and support effort.
+I design data-platform services for reporting and analytics using Python, SQL, Kafka, Airflow, and distributed-processing patterns. The work includes batch and near-real-time pipelines, partitioning and incremental processing, schema validation, reconciliation, freshness monitoring, recovery workflows, curated metrics, and operational dashboards.
 
-### Reliable Event and Data Processing
+### University Data Platform Engineering
 
-Across commerce and analytics systems, I have worked on scheduling and event-driven processing using Airflow-style workflows, Kafka patterns, idempotent consumers, schema validation, retries, replay handling, and dead-letter recovery. I focus on making data freshness, failure ownership, and operational state visible to the teams using the platform.
+At Northeastern University, I owned services for identity, enrollment, advising, and campus operations. I built Python microservices and Airflow-orchestrated pipelines with schema validation, deduplication, authorization, audit trails, freshness checks, replay controls, and operational runbooks for multiple data consumers.
 
-### Performance and Data Reliability
+### Commerce and Regulated Systems
 
-My recent work includes PostgreSQL and Redis optimization, async processing, indexing, query redesign, and data-quality monitoring. Earlier data-platform work covered Spark/Hadoop processing, workload isolation, and ingestion standards for large-scale analytical systems.
+I have built commerce, healthcare, and financial workflows where traceability and correctness matter. This includes idempotency keys, retry-safe processing, dead-letter recovery, SQL and Redis performance optimization, automated validation, and repeatable release controls across cloud environments.
 
 ---
 
 ## Featured Repositories
 
+### [Airflow Data Quality DAGs](https://github.com/PavanKalyan-1718/airflow-data-quality-dags)
+Production-style Airflow DAGs for data-quality checks with retry and backfill safety. The project demonstrates PostgreSQL-backed duplicate, completeness, and freshness checks, isolated quality-rule tests, and GitHub Actions CI.
+
 ### [Stream Codec Lab](https://github.com/PavanKalyan-1718/stream-codec-lab)
-Reproducible compression benchmarks for data-processing workloads. It compares lossless codecs across repetitive and high-cardinality event streams, verifies round trips, reports throughput and compression ratio, and runs tests in GitHub Actions. The project is a focused exploration of the data-movement tradeoffs that matter in production analytics systems.
+Reproducible compression benchmarks for data-processing workloads. It compares lossless codecs across repetitive and high-cardinality event streams, verifies round trips, reports throughput and compression ratio, and runs tests in GitHub Actions. The project explores the data-movement tradeoffs that matter in analytical platforms.
 
 ### [AWS Serverless Order Pipeline](https://github.com/PavanKalyan-1718/aws-serverless-order-pipeline)
 An event-driven Python backend using Lambda handlers and AWS SAM. It demonstrates asynchronous workflow design, payload validation, and maintainable service boundaries.
@@ -76,21 +81,21 @@ A small monitoring project that simulates service checks and incident reporting,
 ## Engineering Highlights
 
 - Automated university reporting workflows with Airflow, reducing manual data preparation from three days to four hours.
-- Improved peak-window API latency through PostgreSQL indexing, query redesign, and Redis caching.
+- Improved peak-enrollment p99 API latency from 1.8s to 220ms through PostgreSQL query analysis, composite indexing, ORM rewrites, and Redis caching.
 - Built data-quality monitoring for record counts, null rates, schema drift, and late-arriving data with Prometheus and Grafana.
-- Reduced a Spark/Hadoop batch workload from six hours to 90 minutes through partition, shuffle, and executor tuning.
-- Designed reusable service templates, CI checks, deployment health checks, and runbooks for platform onboarding and production support.
+- Designed a columnar analytics platform using partitioning, multi-column sort keys, materialized views, and ZSTD compression; processed 2.4M records with sub-second query latency and 87% less storage than a row-oriented baseline.
+- Built reusable data contracts, CI checks, deployment health checks, and runbooks for platform onboarding and production support.
 
 ---
 
 ## Core Stack
 
 ```text
-Languages        Go, Python, Java, TypeScript, SQL, Bash
-Orchestration    Apache Airflow, Kafka, workflow scheduling, retries, backfills
+Languages        Python, Go, Java, TypeScript, SQL, Bash
+Orchestration    Apache Airflow, Kafka, Spark, Flink, workflow scheduling, retries, backfills
 Platform         Kubernetes, Docker, Terraform, Helm, REST, GraphQL, gRPC
 Observability    Prometheus, Grafana, OpenTelemetry, SLOs, incident response
-Data             PostgreSQL, Redis, BigQuery, Spark, Hadoop, Hive, MySQL
+Data             PostgreSQL, Redis, BigQuery, MySQL, schema design, data contracts
 ```
 
 ---
@@ -100,10 +105,10 @@ Data             PostgreSQL, Redis, BigQuery, Spark, Hadoop, Hive, MySQL
 **MSc, Informatics** - Northeastern University, 3.8/4.0
 
 **B.Tech, Computer Science** - Lovely Professional University
-Microsoft Certified: Azure Fundamentals • Power Platform Developer Associate • Security, Compliance, and Identity Fundamentals • LPIC
+Microsoft Certified: Azure Fundamentals • Security, Compliance, and Identity Fundamentals • System Design & Architecture (CodeSignal)
 
 ---
 
 ## Current Direction
 
-I am building this portfolio around the engineering problems I enjoy most: reliable workflow orchestration, developer-friendly data platforms, observable cloud services, and systems that make complicated operational work simpler for the teams using them.
+I am building this portfolio around the engineering problems I enjoy most: trustworthy measurement data, segmentation-ready platforms, reliable workflow orchestration, observable cloud services, and systems that make complicated operational work simpler for the teams using them.
