@@ -43,19 +43,31 @@ I care about the practical parts of operating a platform: idempotency, schema ev
 
 ---
 
-## Selected Work
+## Experience
 
-### Techminds Group — Contractor
+### Techminds Group — Contractor | 2026 - Present
 
-I design data-platform services for reporting and analytics using Python, SQL, Kafka, Airflow, and distributed-processing patterns. The work includes batch and near-real-time pipelines, partitioning and incremental processing, schema validation, reconciliation, freshness monitoring, recovery workflows, curated metrics, and operational dashboards.
+Designing data-platform services for reporting and analytics using Python, SQL, Kafka, Airflow, and distributed-processing patterns. The work includes batch and near-real-time pipelines, partitioning and incremental processing, schema validation, reconciliation, freshness monitoring, recovery workflows, curated metrics, and operational dashboards. I also build REST and GraphQL APIs, React/TypeScript operational workflows, and observable cloud delivery with Docker, Kubernetes, Terraform, and GitHub Actions.
 
-### University Data Platform Engineering
+### Northeastern University — Senior Software Engineer | 2023 - 2026
 
-At Northeastern University, I owned services for identity, enrollment, advising, and campus operations. I built Python microservices and Airflow-orchestrated pipelines with schema validation, deduplication, authorization, audit trails, freshness checks, replay controls, and operational runbooks for multiple data consumers.
+Owned data-platform services for identity, enrollment, advising, and campus operations. Built Python microservices and Airflow-orchestrated pipelines with schema validation, deduplication, authorization, audit trails, freshness checks, replay controls, and operational runbooks for multiple data consumers. Improved peak-window p95 API latency by approximately 40% with PostgreSQL query planning, indexes, Redis caching, and worker-concurrency tuning.
 
-### Commerce and Regulated Systems
+### Adobe — Software Engineer, Contractor | 2023
 
-I have built commerce, healthcare, and financial workflows where traceability and correctness matter. This includes idempotency keys, retry-safe processing, dead-letter recovery, SQL and Redis performance optimization, automated validation, and repeatable release controls across cloud environments.
+Built commerce platform services for catalog, customer, pricing, inventory, and order workflows across React interfaces, Python/Java APIs, PostgreSQL models, and AWS deployment. Implemented idempotency keys, schema validation, retry-safe processing, dead-letter recovery, SQL and Redis optimization, and gated CI/CD with repeatable rollback procedures.
+
+### Northeastern University — Digital Experience Assistant, Co-op | 2022
+
+Built Python and Go data pipelines for the university analytical reporting layer using BigQuery partitioning, SQL aggregations, and Airflow automation, reducing manual data preparation from three days to four hours. Reduced peak-enrollment p99 API latency from 1.8s to 220ms through query analysis, composite indexes, ORM rewrites, and Redis caching. Created Prometheus-based data-quality monitoring and Grafana dashboards adopted across three teams.
+
+### Accenture — Software Engineer | 2019 - 2021
+
+Built healthcare and financial enterprise platforms with Java, Python, SQL, APIs, and automation. Developed integration services and restartable validation jobs for regulated data flows, plus reusable exception-reporting and reconciliation components that improved failure detection and recovery. Standardized release and validation workflows using Jenkins, Maven, shell scripting, and SQL.
+
+### Northeastern University — MSc Capstone: OLAP Analytics Platform | 2021
+
+Designed a columnar analytics platform on GCP BigQuery inspired by MergeTree-style internals. The platform used date partitions, multi-column sort keys, materialized views, and ZSTD compression to process 2.4M records with sub-second query latency and an 87% storage reduction against a row-oriented baseline. Added Kafka and Airflow ingestion with schema controls and automated data tiering.
 
 ---
 
