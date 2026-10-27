@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/PavanKalyan-1718"><img src="https://img.shields.io/badge/GitHub-Portfolio-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/PavanKalyan-1718/Portfolio"><img src="https://img.shields.io/badge/Portfolio-Engineering%20Work-1e6654?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio site" /></a>
   <a href="mailto:pavankalyan.kattaa@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-dc2626?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/pavankatta1718/"><img src="https://img.shields.io/badge/LinkedIn-Professional%20Profile-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
@@ -72,6 +73,9 @@ Designed a columnar analytics platform on GCP BigQuery inspired by MergeTree-sty
 ---
 
 ## Featured Repositories
+
+### [Portfolio](https://github.com/PavanKalyan-1718/Portfolio)
+A recruiter-facing engineering portfolio that connects my platform focus, quantified outcomes, experience, and open-source work in one responsive site.
 
 ### [Airflow Data Quality DAGs](https://github.com/PavanKalyan-1718/airflow-data-quality-dags)
 Production-style Airflow DAGs for data-quality checks with retry and backfill safety. The project demonstrates PostgreSQL-backed duplicate, completeness, and freshness checks, isolated quality-rule tests, and GitHub Actions CI.
